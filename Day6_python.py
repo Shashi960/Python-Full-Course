@@ -84,7 +84,7 @@ print(s|s1)#union
 print(s&s1)#intersection
 print(s-s1)#set difference
 s.remove('Apple') #or
-s.remove('Apple')
+s.discard('Apple')
 
 
 #3
