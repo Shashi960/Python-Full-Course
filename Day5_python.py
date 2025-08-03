@@ -82,7 +82,7 @@ print(list)
 
 '''2)Reverse and Sort a List: Create a list of numbers and:
 Sort it in descending order.
-Reverse the sorted list and print it.'''
+Reverse the sorted list and print it'''
 list=[2,6,3,7,9,1,4,8]
 print(list)
 list.sort(reverse=True)
