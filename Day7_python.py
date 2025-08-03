@@ -4,3 +4,4 @@ Birthday={
     "nithin":"10-02-2008"
 }
 print(Birthday)
+print(Birthday["Shashi"])
