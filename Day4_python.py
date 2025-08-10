@@ -59,21 +59,21 @@ print(a>>1)
 -both  numbers are greater than 10
 -at least one number is less than 5
 -the first number is not greater than second  (using not)"""
-a=int(input("Enter a number"))
-b=int(input("Enter another number"))
+a=int(input("Enter a number: "))
+b=int(input("Enter another number: "))
 print(f"Both numbers are greater than 10 : {a>10 and b>10}")
 print(f"at least one number is less than 5 : {a<5 or a<5}")
 print(f"The first number is not greater than second : {not(a>b)}")
 
 #2)CHeck user age is eligible to vote ir not
-age=int(input("Enter Your Age"))
+age=int(input("Enter Your Age : "))
 if(age>=18):
     print("You are Eligible to vote")
 if(age<18):
     print("You are not eligible to vote")
 
 #3)program for membership
-str=input("Enter a string")
+str=input("Enter a string :")
 print('s' in str)
 print('shi' in str)
 
