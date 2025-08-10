@@ -36,7 +36,7 @@ print(type(s1))
   
 
 #DAY 2 HOME WORK
-#Program for Arithmatic calculator
+#1)Program for Arithmatic calculator
 a=int(input("Enter a number: "))
 b=int(input("Enter an another number: "))
 print("select Operator")
@@ -62,7 +62,7 @@ else:
 
 
 
-#Program For Swap Number Without using Temp variable
+#2)Program For Swap Number Without using Temp variable
 print("For Swaping Two Numbers: ")
 a=int(input("Enter a number: "))
 b=int(input("Enter another number: "))
