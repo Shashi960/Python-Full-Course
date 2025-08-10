@@ -61,7 +61,11 @@ print(s)
 
 
 #HOME WORK 
-#1)Tuple 
+'''1.Tuple Operations:
+   - Create a tuple with 5 elements.
+   - Try to modify one of the elements. What happens?
+   - Perform slicing on the tuple to extract the second and third elements.
+   - Concatenate the tuple with another tuple'''
 a=(1,2,3,4,5)
 print(a)
 b=list(a)
@@ -77,7 +81,11 @@ t1=(10,12,14,16)
 print(a+t1)
 
 
-#2
+'''2.Set Operations:
+   - Create two sets: one with your favorite fruits and another with your friend’s favorite fruits.
+   - Find the union, intersection, and difference between the two sets.
+   - Add a new fruit to your set.
+   - Remove a fruit from your set using both `remove()` and `discard()`. What happens when the fruit doesn’t exist?'''
 s={'banana','guava','Apple','kiwi'}
 s1={'Apple','banana','drago fruit','orange'}
 print(s|s1)#union
@@ -87,7 +95,10 @@ s.remove('Apple') #or
 s.discard('Apple')
 
 
-#3)
+'''3.Tuple and Set Comparison:
+   - Create a list of elements and convert it into both a tuple and a set.
+   - Print both the tuple and the set.
+   - Try to add new elements to the tuple and set. What differences do you observe?'''
 l=[1,2,3,4,5,6,7,8,9,10]
 t=tuple(l)
 print(t)
