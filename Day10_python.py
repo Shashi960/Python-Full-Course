@@ -117,5 +117,3 @@ if(count>0):
     print(f"{count} vowels are there in a given string.\nThey are {list} ")
 else:
     print("No vewels found")
-
-
