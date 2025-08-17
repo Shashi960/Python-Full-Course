@@ -27,7 +27,7 @@ class Student:
    def age(self):
       print(f"{self.name} is {self.ages} years old")
 
-A=Student("Kuppa",12,67)
+A=Student("Krupa",12,67)
 S=Student("Shashank",21,89)
 S.scores()
 A.scores()
