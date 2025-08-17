@@ -74,28 +74,19 @@ admin.delete_user("user_102")
 
 
 #Polymorphism
-class User:
-    def __init__(self, username):
-        self.username = username
-
-    def login(self):
-        print(f"{self.username} logged in")
-
-class Admin(User):
-    def delete_user(self, user):
-        print(f"Admin {self.username} deleted user {user}")
-
-admin = Admin("karnataka_admin")
-admin.login()  # Inherited from User
-admin.delete_user("user_102")
-
-
-
-
-
-
-
-
+class Notification:
+    def send(self):
+        pass
+class EmailNotification(Notification):
+    def send(self):
+        print("Sending Email")
+class SMSNotification(Notification):
+    def send(self):
+        print("Sending SMS")
+notifications = [EmailNotification(), SMSNotification()]
+for notification in notifications:
+    notification.send()
+    
 #Homework
 '''1.Encapsulation:
    - Create a `BankAccount` class with private attributes for `account_number` and `balance`.
