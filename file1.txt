@@ -1,0 +1,2 @@
+This file contain some lines.
+Next line it is
