@@ -161,11 +161,7 @@ def display_students():
 
 def menu():
     while True:
-        print("=== Educational System Menu ===")
-        print("1. Add Student")
-        print("2. Display Students")
-        print("3. Exit")
-        
+        print("=== Educational System Menu ===\n1. Add Student\n2. Display Students\n3. Exit")        
         choice = input("Enter your choice (1-3): ")
         
         if choice == '1':
