@@ -1,7 +1,4 @@
-with open('friends.txt','r') as file:
-    content=file.read()
-    name=input("Enter search Name in friends.txt: ")
-    if name in content:
-        print("Found!")
-    else:
-        print("Not found")
+from Library import books, members
+
+print("Books in Library:", books.list_books())
+print("Library Members:", members.list_members())
