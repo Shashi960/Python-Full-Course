@@ -1,4 +1,13 @@
-from Library import books, members
+import yt_dlp
 
-print("Books in Library:", books.list_books())
-print("Library Members:", members.list_members())
+url = input("Enter YouTube video URL: ")
+
+
+ydl_opts = {'format': 'best','outtmpl': '%(title)s.%(ext)s'}
+
+with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+    info = ydl.extract_info(url, download=True)
+    print("Download Completed!")
+    print("Title:", info.get('title'))
+    print("Views:", info.get('view_count'))
+    print("Duration (sec):", info.get('duration'))
